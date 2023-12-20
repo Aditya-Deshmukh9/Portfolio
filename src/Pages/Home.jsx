@@ -18,10 +18,10 @@ function Home() {
 
             <div className="lg:py-24">
               <span className="font-bold">Hi' I am</span>
-              <h1 className="text-3xl font-bold lg:pb-2 uppercase font-secondary">
+              <h1 className="text-3xl font-bold lg:pb-2 uppercase font-secondary sm:text-5xl">
                 Aditya Deshmukh
               </h1>
-              <span className="text-4xl font-bold uppercase font-tertiary">
+              <span className="text-3xl font-bold uppercase font-tertiary">
                 I am a{" "}
               </span>
               <TypeAnimation
@@ -34,7 +34,7 @@ function Home() {
                   2000,
                 ]}
                 speed={60}
-                className="text-indigo-600 text-4xl font-bold uppercase"
+                className="text-indigo-600 text-3xl font-bold uppercase"
                 wrapper="span"
                 repeat={Infinity}
               />
