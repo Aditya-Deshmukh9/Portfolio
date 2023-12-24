@@ -14,18 +14,8 @@ function About() {
     <section id="about" className="dark:bg-gray-900 dark:text-white">
       <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-1">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 mt-20">
-          <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-            <img
-              alt="Party"
-              src={about}
-              className="absolute inset-0 h-100px w-full object-cover"
-            />
-          </div>
-
           <div className="lg:py-24">
-            <h2 className="text-3xl font-bold sm:text-4xl ">
-              Grow your audience
-            </h2>
+            <h2 className="text-3xl font-bold sm:text-4xl ">Skills</h2>
             {/* First Progess */}
             <div className="mt-2">
               <p className="font-bold text-indigo-900 dark:text-white p-1">
@@ -132,6 +122,14 @@ function About() {
                 </div>
               </div>
             </div>
+          </div>
+
+          <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-first lg:h-full">
+            <img
+              alt="Party"
+              src={about}
+              className="absolute inset-0 h-100px w-full object-cover"
+            />
           </div>
         </div>
       </div>

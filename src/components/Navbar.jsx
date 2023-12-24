@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white dark:bg-black dark:text-white fixed top-0 w-full z-10 ">
+    <header className="bg-white dark:bg-gray-900 dark:text-white sm:fixed top-0 w-full z-10 ">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 font-semibold">
           <div className="flex-shrink-0">
@@ -22,12 +22,12 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden md:flex items-center space-x-4 ">
             <Link
               to="Home"
               smooth={true}
               duration={200}
-              className="transition text-indigo-600 hover:text-black cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
             >
               Home
             </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
             >
               About
             </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
             >
               Projects
             </Link>
@@ -51,7 +51,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
             >
               Contact
             </Link>

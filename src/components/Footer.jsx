@@ -1,32 +1,32 @@
 import React from "react";
-import { Link } from "react-scroll";
+import { BsInstagram } from "react-icons/bs";
+import { FaFacebook, FaLinkedin, FaDiscord } from "react-icons/fa";
 
 const Footer = () => {
-  const year = new Date().getFullYear();
   return (
-    <>
-      <footer
-        id="Footer"
-        className="bg-gray-50 dark:bg-gray-900 dark:text-white "
-      >
-        <div className="mx-auto max-w-screen-xl py-6 sm:px-6 lg:px-8">
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <div className="flex justify-center sm:justify-start">
-              <Link
-                to="Home"
-                className="mt-2 text-3xl font-bold text-indigo-500 cursor-pointer"
-              >
-                AD
-              </Link>
-            </div>
-
-            <p className="mt-2 text-center text-sm text-gray-500 lg:mt-0 lg:text-right">
-              Copyright &copy; {year}. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
-    </>
+    <div className=" flex flex-col lg:flex-row justify-between lg:px-32 px-5 bg-white p-5">
+      <div className=" flex gap-10">
+        <BsInstagram
+          size={32}
+          className=" hover:text-brightColor transition-all cursor-pointer"
+        />
+        <FaFacebook
+          size={32}
+          className=" hover:text-brightColor transition-all cursor-pointer"
+        />
+        <FaLinkedin
+          size={32}
+          className=" hover:text-brightColor transition-all cursor-pointer"
+        />
+        <FaDiscord
+          size={32}
+          className=" hover:text-brightColor transition-all cursor-pointer"
+        />
+      </div>
+      <div className=" flex flex-row items-center cursor-pointer mt-5 lg:mt-0">
+        <h1 className=" text-3xl font-semibold">Alex.</h1>
+      </div>
+    </div>
   );
 };
 
