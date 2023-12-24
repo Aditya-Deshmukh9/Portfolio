@@ -10,8 +10,8 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white dark:bg-gray-900 dark:text-white sm:fixed top-0 w-full z-10 ">
-      <div className="container mx-auto px-4">
+    <header className="bg-white dark:bg-gray-900 dark:text-white sm:fixed top-0 w-full z-10">
+      <div className="container mx-auto px-4 sm:px-0">
         <div className="flex items-center justify-between h-16 font-semibold">
           <div className="flex-shrink-0">
             <Link

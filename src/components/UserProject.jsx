@@ -3,13 +3,13 @@ import { Link } from "react-scroll";
 
 // Project component
 const UserProject = ({ title, image, description, githubLink, liveLink }) => (
-  <div className="h-[400px] my-4 rounded-lg bg-gray-200">
+  <div className="h-[400px] my-4 sm:my-1 rounded-lg bg-gray-200">
     <article className="overflow-hidden rounded-lg border border-gray-100 bg-white shadow-sm">
       <div className="border-4 border-white-600">
         <img alt={title} src={image} className="h-56 p-1 w-full object-fill" />
       </div>
 
-      <div className="p-4 sm:p-6 sm:my-2">
+      <div className="p-4 sm:px-6 sm:my-1">
         <Link to="home">
           <h3 className="text-lg font-medium text-gray-900">{title}</h3>
         </Link>

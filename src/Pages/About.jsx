@@ -11,8 +11,8 @@ function About() {
   };
 
   return (
-    <section id="about" className="dark:bg-gray-900 dark:text-white">
-      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-1">
+    <section id="about" className="dark:bg-gray-900 dark:text-white sm:px-14 ">
+      <div className="mx-auto max-w-screen-xl px-4 py-8 sm:py-12 lg:px-8 lg:py-1">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 mt-20">
           <div className="lg:py-24">
             <h2 className="text-3xl font-bold sm:text-4xl ">Skills</h2>
