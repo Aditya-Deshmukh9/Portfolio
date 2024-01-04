@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import ThemeBtn from "./ThemeBtn";
+import { RiMenu3Line } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="bg-white dark:bg-gray-900 dark:text-white sm:fixed top-0 w-full z-10">
+    <header className="bg-white dark:bg-slate-950 dark:text-white sm:fixed top-0 w-full z-10 sticky">
       <div className="container mx-auto px-4 sm:px-0">
         <div className="flex items-center justify-between h-16 font-semibold">
           <div className="flex-shrink-0">
@@ -18,7 +20,7 @@ const Navbar = () => {
               to="Home"
               className="text-3xl font-bold text-indigo-500 cursor-pointer"
             >
-              AD
+              AD.
             </Link>
           </div>
 
@@ -27,7 +29,7 @@ const Navbar = () => {
               to="Home"
               smooth={true}
               duration={200}
-              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
             >
               Home
             </Link>
@@ -35,7 +37,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
             >
               About
             </Link>
@@ -43,7 +45,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
             >
               Projects
             </Link>
@@ -51,7 +53,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black hover:text-2xl cursor-pointer dark:hover:text-white"
+              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
             >
               Contact
             </Link>
@@ -64,20 +66,11 @@ const Navbar = () => {
               className="text-gray-500 hover:text-gray-700"
               onClick={toggleMobileMenu}
             >
-              <svg
-                className="h-6 w-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16m-7 6h7"
-                ></path>
-              </svg>
+              {isMobileMenuOpen ? (
+                <RxCross2 className="duration-75 text-xl text-gray-600 dark:text-white" />
+              ) : (
+                <RiMenu3Line className="duration-75 text-xl text-gray-600 dark:text-white" />
+              )}
             </button>
           </div>
         </div>

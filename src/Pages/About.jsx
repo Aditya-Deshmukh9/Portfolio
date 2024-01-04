@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/about.jpg";
+import about from "../assets/7504550_3685115.svg";
 
 function About() {
   const progressValue = {
@@ -29,7 +29,9 @@ function About() {
               >
                 <div
                   className="h-4 rounded-full bg-indigo-600 text-center text-[10px]/4"
-                  style={{ width: `${progressValue.HTML}%` }}
+                  style={{
+                    width: `${progressValue.HTML}%`,
+                  }}
                 >
                   <span className="font-bold text-white">
                     {`${progressValue.HTML}%`}{" "}

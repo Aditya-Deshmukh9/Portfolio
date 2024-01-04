@@ -11,11 +11,17 @@ const Contact = () => {
           Contact Us
         </h1>
 
-        <form>
+        <form action="https://api.web3forms.com/submit" method="POST">
           <div className="mb-4 mt-8">
+            <input
+              type="hidden"
+              name="access_key"
+              value="c192f57d-4be7-4418-80d3-d2fdb5cea492"
+            />
             <label
               htmlFor="username"
               className="block text-gray-600 dark:text-white mb-2"
+              required
             >
               Username
             </label>
@@ -23,8 +29,6 @@ const Contact = () => {
               type="text"
               name="username"
               placeholder="Username"
-              // value={contact.username}
-              // onChange={handleChange}
               required
               autoComplete="on"
               className="w-full p-2 border-grey border-2 rounded-md focus:outline-none focus:ring focus:border-blue-300"
@@ -42,8 +46,6 @@ const Contact = () => {
               type="email"
               name="email"
               autoComplete="on"
-              // value={contact.email}
-              // onChange={handleChange}
               required
               placeholder="Email"
               className="w-full p-3 border-grey border-2 rounded-md focus:outline-none focus:ring focus:border-blue-300"
@@ -59,10 +61,7 @@ const Contact = () => {
             </label>
             <textarea
               name="message"
-              id="message"
               autoComplete="off"
-              // value={contact.message}
-              // onChange={handleChange}
               required
               cols="30"
               rows="6"
@@ -72,7 +71,6 @@ const Contact = () => {
 
           <button
             type="submit"
-            // className="inline-flex items-center gap-2 rounded border border-indigo-600 px-8 py-3 text-indigo-600 hover:bg-indigo-600 hover:text-white focus:outline-none focus:ring active:bg-indigo-500"
             className="w-full py-3 border mt-4 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white dark:text-white"
           >
             Submit

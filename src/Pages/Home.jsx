@@ -7,11 +7,11 @@ function Home() {
     <>
       <section
         id="Home"
-        className="dark:bg-gray-900 dark:text-white w-full h-full "
+        className="dark:bg-gray-900 dark:text-white w-full h-full scroll-smooth"
       >
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 sm:mx-14 lg:px-8 lg:py-16 ">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16  mt-20">
-            <div className="h-auto flex justify-center  overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+            <div className="h-auto select-none flex justify-center  overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <img alt="Party" src={logo} />
             </div>
 

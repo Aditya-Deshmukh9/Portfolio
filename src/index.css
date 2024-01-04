@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo {
-    font-family: 'Outfit';
+* {
+    font-family: 'Mark Pro', sans-serif;
 }
 
 /* App.css */
