@@ -45,7 +45,7 @@ function Home() {
 
               <a
                 href="https://github.com/Aditya-Deshmukh9"
-                className="mt-8 inline-block rounded bg-indigo-600 text-white px-8 py-2 text-bg font-medium  transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-indigo-900 cursor-pointer"
+                className="mt-8 inline-block rounded bg-indigo-700 text-white px-8 py-2 text-bg font-medium  transition hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-900 cursor-pointer"
               >
                 Github
               </a>

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="px-4 py-16 sm:px-6 lg:px-8 dark:bg-gray-900 dark:text-white"
+      className="px-4 py-16 sm:px-6 lg:px-8 dark:bg-gray-900 dark:text-black"
     >
       <div className="mx-auto max-w-lg">
         <h1 className="text-center text-2xl font-bold text-indigo-600 sm:text-3xl  lg:mt-18">
@@ -31,7 +31,7 @@ const Contact = () => {
               placeholder="Username"
               required
               autoComplete="on"
-              className="w-full p-2 border-grey border-2 rounded-md focus:outline-none focus:ring focus:border-blue-300"
+              className="w-full p-2 border-grey border-2 rounded-md focus:outline-none focus:ring focus:border-blue-300 dark:bg-slate-800 dark:text-white"
             />
           </div>
 
@@ -48,7 +48,7 @@ const Contact = () => {
               autoComplete="on"
               required
               placeholder="Email"
-              className="w-full p-3 border-grey border-2 rounded-md focus:outline-none focus:ring focus:border-blue-300"
+              className="w-full p-3 border-grey border-2 rounded-md focus:outline-none focus:ring focus:border-blue-300 dark:bg-slate-800 dark:text-white"
             />
           </div>
 
@@ -65,7 +65,8 @@ const Contact = () => {
               required
               cols="30"
               rows="6"
-              className="w-full p-3 border-2 border-grey rounded-md focus:outline-none focus:ring focus:border-blue-300"
+              placeholder="Type Message here 🫡"
+              className="w-full p-3 border-2 border-grey rounded-md focus:outline-none focus:ring focus:border-blue-300 dark:bg-slate-800 dark:text-white"
             ></textarea>
           </div>
 

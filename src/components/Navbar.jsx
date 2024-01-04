@@ -29,7 +29,7 @@ const Navbar = () => {
               to="Home"
               smooth={true}
               duration={200}
-              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
+              className="p-4 border-b-2 border-indigo-700 border-opacity-0 hover:border-opacity-100 hover:text-indigo-600 duration-200 cursor-pointer active"
             >
               Home
             </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
               to="about"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
+              className="p-4 border-b-2 border-indigo-700 border-opacity-0 hover:border-opacity-100 hover:text-indigo-600 duration-200 cursor-pointer active"
             >
               About
             </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
               to="projects"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
+              className="p-4 border-b-2 border-indigo-700 border-opacity-0 hover:border-opacity-100 hover:text-indigo-600 duration-200 cursor-pointer active"
             >
               Projects
             </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
               to="contact"
               smooth={true}
               duration={400}
-              className="transition text-indigo-600 hover:text-black hover:text-xl cursor-pointer dark:hover:text-white"
+              className="p-4 border-b-2 border-indigo-700 border-opacity-0 hover:border-opacity-100 hover:text-indigo-600 duration-200 cursor-pointer active"
             >
               Contact
             </Link>
