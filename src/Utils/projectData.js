@@ -26,6 +26,14 @@ const projectData = [
     githubLink: "https://github.com/Aditya-Deshmukh9/Drum-Kit-Project",
     liveLink: "#",
   },
+   {
+    title: "Walmart Clone Nextjs",
+    image: walmart,
+    description:
+      'Her I use Nextjs, Typescript, Tailwind css, Zustand for state management and Oxylabs for Scripting from Walmart original website, Check out Now!',
+    githubLink: "https://github.com/Aditya-Deshmukh9/walmart-clone",
+    liveLink: "https://walmartclone-by-aditya.vercel.app",
+  },
   // Add more project data as needed
 ];
 
