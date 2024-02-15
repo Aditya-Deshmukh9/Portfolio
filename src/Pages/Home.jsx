@@ -43,11 +43,19 @@ function Home() {
                 Development
               </p>
 
-              <a
+               <a
                 href="https://github.com/Aditya-Deshmukh9"
-                className="mt-8 inline-block rounded bg-indigo-700 text-white px-8 py-2 text-bg font-medium  transition hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-900 cursor-pointer"
+                className="mt-8 inline-block rounded bg-indigo-700 text-white px-8 py-2 text-bg font-medium  transition hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-900 cursor-pointer "
+                target="_blank"
               >
                 Github
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1VAnOcF_gSIKDNflFIWVrkzyFyaWCImD-/view?usp=sharing"
+                className="mt-8 ml-4 inline-block rounded border border-indigo-600 text-indigo-600 px-8 py-2 text-bg font-medium hover:text-white transition hover:bg-indigo-600 focus:outline-none cursor-pointer "
+                target="_blank"
+              >
+                Resume
               </a>
             </div>
           </div>
