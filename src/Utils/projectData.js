@@ -1,15 +1,15 @@
 import drumKit from "../assets/DrumbKitGame.png";
 import Ecart from "../assets/Ecart Image.png";
-import walmart from "../assets/walmart.png";
+import weather from "../assets/Live-Foecast-weather.png";
 
 const projectData = [
   {
-    title: "Walmart Clone Nextjs",
-    image: walmart,
+    title: "Live Forecast Weather",
+    image: weather,
     description:
-      "Her I use Nextjs, Typescript, Tailwind css, Zustand for state management and Oxylabs for Scripting from Walmart original website, Check out Now!",
-    githubLink: "https://github.com/Aditya-Deshmukh9/walmart-clone",
-    liveLink: "https://walmartclone-by-aditya.vercel.app",
+      "Live Forecast Weather app built with MERN stack, integrating OpenweatherApi for real-time updates, with 100+ regular users",
+    githubLink: "https://github.com/Aditya-Deshmukh9/Live-weather-frontend",
+    liveLink: "https://live-weather-frontend.vercel.app/",
   },
   {
     title: "E-Cart",

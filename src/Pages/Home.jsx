@@ -9,13 +9,13 @@ function Home() {
         id="Home"
         className="dark:bg-gray-900 dark:text-white w-full h-full scroll-smooth"
       >
-        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 sm:mx-14 lg:px-8 lg:py-16 ">
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16  mt-20">
+        <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 sm:mx-14 lg:px-8 lg:py-16">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16 mt-20">
             <div className="h-auto select-none flex justify-center  overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <img alt="Party" src={logo} />
             </div>
 
-            <div className="lg:py-24">
+            <div className="lg:py-24 ml-8">
               <span className="font-bold">Hi' I am</span>
               <h1 className="text-3xl font-bold lg:pb-2 uppercase font-secondary sm:text-5xl">
                 Aditya Deshmukh
@@ -45,9 +45,17 @@ function Home() {
 
               <a
                 href="https://github.com/Aditya-Deshmukh9"
-                className="mt-8 inline-block rounded bg-indigo-700 text-white px-8 py-2 text-bg font-medium  transition hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-900 cursor-pointer"
+                className="mt-8 inline-block rounded bg-indigo-700 text-white px-8 py-2 text-bg font-medium  transition hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-900 cursor-pointer "
+                target="_blank"
               >
                 Github
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1VAnOcF_gSIKDNflFIWVrkzyFyaWCImD-/view?usp=sharing"
+                className="mt-8 ml-4 inline-block rounded border border-indigo-600 text-indigo-600 px-8 py-2 text-bg font-medium hover:text-white transition hover:bg-indigo-600 focus:outline-none cursor-pointer "
+                target="_blank"
+              >
+                Resume
               </a>
             </div>
           </div>
