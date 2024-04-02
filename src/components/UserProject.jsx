@@ -6,7 +6,11 @@ const UserProject = ({ title, image, description, githubLink, liveLink }) => (
   <div className="h-[400px] my-4 sm:my-1 rounded-lg bg-gray-200 ">
     <article className="overflow-hidden rounded-lg border border-gray-100 bg-indigo-100 shadow-sm">
       <div className="border-4 border-white-600">
-        <img alt={title} src={image} className="h-56 p-1 w-full object-fill" />
+        <img
+          alt={title}
+          src={image}
+          className="h-56 p-1 w-full object-left-top object-cover"
+        />
       </div>
 
       <div className="p-4 sm:px-6 sm:my-1">

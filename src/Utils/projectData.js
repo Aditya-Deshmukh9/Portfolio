@@ -1,4 +1,4 @@
-import drumKit from "../assets/DrumbKitGame.png";
+import Grocery from "../assets/project03.png";
 import Ecart from "../assets/Ecart Image.png";
 import weather from "../assets/Live-Foecast-weather.png";
 
@@ -20,12 +20,12 @@ const projectData = [
     liveLink: "https://ecart-react.netlify.app/",
   },
   {
-    title: "Drum Kit Game",
-    image: drumKit,
+    title: "Full Stack Grocery Store",
+    image: Grocery,
     description:
-      'Using Html, Css and JavaScript, "Crafted an engaging Drum Kit Game for my portfolio using HTML, CSS, and JavaScript. Users can play virtual drums, enhancing interactivity and showcasing frontend development skills. Check it out!"',
-    githubLink: "https://github.com/Aditya-Deshmukh9/Drum-Kit-Project",
-    liveLink: "https://aditya-deshmukh9.github.io/Drum-Kit-Project/",
+      "This project is an online grocery store application built with Next.js, Tailwind CSS, and Shadcn UI. It utilizes Razorpay Payment Gateway for processing online payments and Axios for making HTTP requests. Check it out!",
+    githubLink: "https://github.com/Aditya-Deshmukh9/MERN-Grocery-Store",
+    liveLink: "https://full-stack-grocery-store-aditya.vercel.app/",
   },
   // Add more project data as needed
 ];
